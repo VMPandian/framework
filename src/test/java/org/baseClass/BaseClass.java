@@ -66,8 +66,8 @@ public class BaseClass extends FileHandlingBase {
 	public static void copy() throws AWTException {
 		r = new Robot();
 		r.keyPress(KeyEvent.VK_CONTROL);
-		r.keyPress(KeyEvent.VK_V);
-		r.keyRelease(KeyEvent.VK_V);
+		r.keyPress(KeyEvent.VK_C);
+		r.keyRelease(KeyEvent.VK_C);
 		r.keyRelease(KeyEvent.VK_CONTROL);
 	}
 
